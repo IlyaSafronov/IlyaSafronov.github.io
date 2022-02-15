@@ -1,0 +1,87 @@
+a {
+color: rgba(5, 2, 0, 0.815);
+font-size: 110%;
+background-color: rgba(0, 255, 255, 0.527);
+}
+h1 {
+    color: rgba(202, 14, 14, 0.596);
+    font-size: 300%;
+    text-shadow: -5px 8px 8px rgba(233, 230, 61, 0.856) ;
+}
+h4 {
+   color: hsla(255, 89%, 4%, 0.596); 
+   font-size: xx-large;
+   text-decoration: underline;
+   text-decoration-color: rgb(42, 8, 194);
+   text-shadow: 5px 5px 8px rgba(248, 212, 8, 0.863);
+   background-color: rgba(161, 250, 176, 0.562);
+   border: 3px solid rgb(241, 132, 6);
+   margin-left: 50px;
+   margin-right: 100px;
+   padding: 10px;
+}
+h5 {
+    color: rgba(235, 10, 10, 0.733);
+    font-size: x-large;
+    text-shadow: 8px 8px 8px #666;
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1551156597-9084ca482811?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTY5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul {
+    font-size: x-large;
+}
+div {
+    background-color: rgba(63, 156, 148, 0.486);
+    margin-right: 100px;
+       
+}
+form {
+    color: rgb(255, 255, 255);
+    font-size: 110%;
+    text-shadow:3px 5px 6px rgb(221, 9, 9) ;
+    background-color: rgba(0, 255, 255, 0.281);
+    border: 3px dashed rgb(235, 11, 11);
+    margin-right: 100px;
+}
+::placeholder{
+    color: blue;
+    
+}
+button {
+    color: blue;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+div {
+border: 2px solid red;
+width: 100%;
+padding: 12 px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
