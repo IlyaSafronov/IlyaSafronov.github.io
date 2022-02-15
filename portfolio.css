@@ -59,20 +59,67 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
 }
-div {
-border: 2px solid red;
-width: 100%;
-padding: 12 px 20px;
-margin: 8px 0;
-box-sizing: border-box;
+#number {
+    background-color: rgba(80, 255, 118, 0.753);
+}
+#name {
+    background-color: rgba(21, 48, 170, 0.493);
+}
+#name2 {
+    background-color: rgba(236, 252, 14, 0.568);
+}
+#pass1 {
+    background-color: rgba(255, 76, 6, 0.582);
+}
+#box1 {
+    background-color: rgb(9, 245, 87);
+}
+span {
+    color: rgba(238, 12, 12, 0.945);
+    margin-left: 25pt;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: -5px 3px 3px rgb(253, 249, 7);
 }
 
 
 
 
-
-
-
+#checkbox {
+    display: none;
+}
+#checkbox + label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background:#ccc ;
+    border: 3px solid #555;
+    text-align: center;
+}
+#checkbox + label::before {
+    content: "\2714";
+    font-size: 20px color green ;
+    
+}
+#checkbox:checked + label{
+    border: 2px solid green;
+    border-radius: 10px;
+}
+#checkbox:checked + label::before {
+    color:green;
+   
+}
+textarea {
+    width: 40%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(191, 80, 255, 0.795);
+    border-radius: 10px;
+    background-color: rgba(55, 0, 255, 0.39);
+    resize: none;
+    margin-left: 20px;
+}
 
 
 
